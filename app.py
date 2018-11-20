@@ -1,4 +1,4 @@
-from flask import Flask, render_template,request
+from flask import Flask,render_template,request
 from data import student
 app=Flask(__name__)
 getstudent=student()
